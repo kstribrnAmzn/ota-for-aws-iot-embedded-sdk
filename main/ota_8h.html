@@ -122,18 +122,18 @@ Include dependency graph for ota.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="ota_8h__incl.png" border="0" usemap="#aota_8h" alt=""/></div>
 <map name="aota_8h" id="aota_8h">
-<area shape="rect" title="OTA Agent Interface." alt="" coords="378,5,433,31"/>
-<area shape="rect" title=" " alt="" coords="5,225,72,251"/>
-<area shape="rect" title=" " alt="" coords="539,225,610,251"/>
-<area shape="rect" href="ota__private_8h.html" title="Macros, enums, variables, and definitions internal to the OTA Agent module and shared by other OTA mo..." alt="" coords="165,152,273,177"/>
-<area shape="rect" href="ota__os__interface_8h.html" title="Contains OTA OS Functional Interface statuses, type definitions and structures to store interface rou..." alt="" coords="334,79,477,104"/>
-<area shape="rect" href="ota__mqtt__interface_8h.html" title="Contains OTA MQTT Statuses, function type definitions and mqtt interface structure." alt="" coords="553,79,711,104"/>
-<area shape="rect" href="ota__http__interface_8h.html" title="Contains OTA HTTP Statuses, function type definitions and http interface structure." alt="" coords="735,79,889,104"/>
-<area shape="rect" href="ota__platform__interface_8h.html" title="Contains PAL interface statuses, type definitions and structure to store interface routines." alt="" coords="127,79,310,104"/>
-<area shape="rect" title=" " alt="" coords="408,225,491,251"/>
-<area shape="rect" title=" " alt="" coords="96,225,197,251"/>
-<area shape="rect" href="ota__config__defaults_8h.html" title="This represents the default values for the configuration macros for the OTA library." alt="" coords="222,225,383,251"/>
-<area shape="rect" title=" " alt="" coords="668,152,743,177"/>
+<area shape="rect" title="OTA Agent Interface." alt="" coords="375,5,429,33"/>
+<area shape="rect" title=" " alt="" coords="5,232,71,260"/>
+<area shape="rect" title=" " alt="" coords="534,232,604,260"/>
+<area shape="rect" href="ota__private_8h.html" title="Macros, enums, variables, and definitions internal to the OTA Agent module and shared by other OTA mo..." alt="" coords="163,157,270,184"/>
+<area shape="rect" href="ota__os__interface_8h.html" title="Contains OTA OS Functional Interface statuses, type definitions and structures to store interface rou..." alt="" coords="331,81,473,109"/>
+<area shape="rect" href="ota__mqtt__interface_8h.html" title="Contains OTA MQTT Statuses, function type definitions and mqtt interface structure." alt="" coords="547,81,705,109"/>
+<area shape="rect" href="ota__http__interface_8h.html" title="Contains OTA HTTP Statuses, function type definitions and http interface structure." alt="" coords="728,81,881,109"/>
+<area shape="rect" href="ota__platform__interface_8h.html" title="Contains PAL interface statuses, type definitions and structure to store interface routines." alt="" coords="126,81,308,109"/>
+<area shape="rect" title=" " alt="" coords="404,232,485,260"/>
+<area shape="rect" title=" " alt="" coords="94,232,195,260"/>
+<area shape="rect" href="ota__config__defaults_8h.html" title="This represents the default values for the configuration macros for the OTA library." alt="" coords="219,232,380,260"/>
+<area shape="rect" title=" " alt="" coords="661,157,735,184"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -141,14 +141,14 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="ota_8h__dep__incl.png" border="0" usemap="#aota_8hdep" alt=""/></div>
 <map name="aota_8hdep" id="aota_8hdep">
-<area shape="rect" title="OTA Agent Interface." alt="" coords="300,5,355,31"/>
-<area shape="rect" href="ota_8c.html" title="Implementation of the AWS IoT Over&#45;The&#45;Air Updates Client Library." alt="" coords="5,152,60,177"/>
-<area shape="rect" href="ota__http_8c.html" title="Data transfer over HTTP routines." alt="" coords="283,152,369,177"/>
-<area shape="rect" href="ota__http__private_8h.html" title="Contains definitions of routines for OTA download using HTTP data plane." alt="" coords="311,79,453,104"/>
-<area shape="rect" href="ota__interface__private_8h.html" title="Contains function definitions and structures for data and control interfaces." alt="" coords="63,79,237,104"/>
-<area shape="rect" href="ota__mqtt_8c.html" title="Routines for supporting over the air updates using MQTT." alt="" coords="499,152,591,177"/>
-<area shape="rect" href="ota__mqtt__private_8h.html" title="Contains function definitions of routines for OTA download and control using MQTT data plane." alt="" coords="527,79,674,104"/>
-<area shape="rect" href="ota__interface_8c.html" title="Internal interface for setting the data and control planes." alt="" coords="91,152,209,177"/>
+<area shape="rect" title="OTA Agent Interface." alt="" coords="298,5,352,33"/>
+<area shape="rect" href="ota_8c.html" title="Implementation of the AWS IoT Over&#45;The&#45;Air Updates Client Library." alt="" coords="5,157,59,184"/>
+<area shape="rect" href="ota__http_8c.html" title="Data transfer over HTTP routines." alt="" coords="309,157,395,184"/>
+<area shape="rect" href="ota__http__private_8h.html" title="Contains definitions of routines for OTA download using HTTP data plane." alt="" coords="310,81,450,109"/>
+<area shape="rect" href="ota__interface__private_8h.html" title="Contains function definitions and structures for data and control interfaces." alt="" coords="62,81,234,109"/>
+<area shape="rect" href="ota__mqtt_8c.html" title="Routines for supporting over the air updates using MQTT." alt="" coords="469,157,560,184"/>
+<area shape="rect" href="ota__mqtt__private_8h.html" title="Contains function definitions of routines for OTA download and control using MQTT data plane." alt="" coords="526,81,671,109"/>
+<area shape="rect" href="ota__interface_8c.html" title="Internal interface for setting the data and control planes." alt="" coords="89,157,207,184"/>
 </map>
 </div>
 </div>
@@ -419,7 +419,7 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>OtaErr_t The state of the OTA Agent upon return from the OtaState_t enum. If the agent was successfully initialized and ready to operate, the state will be OtaAgentStateReady. Otherwise, it will be one of the other OtaState_t enum values.</dd></dl>
 <p><b>Example</b> </p><div class="fragment"><div class="line"><span class="comment">// Application callback when the OTA agent has completed the job</span></div>
-<div class="line"><span class="comment">// or is in self test mode. For example see [demos](https://github.com/aws/aws-iot-device-sdk-embedded-C/tree/main/demos/ota)</span></div>
+<div class="line"><span class="comment">// or is in self test mode.</span></div>
 <div class="line"><span class="keywordtype">void</span> otaAppCallback( <a class="code hl_enumeration" href="group__ota__enum__types.html#ga96a2e1f5cfad783897e805196eee39a7">OtaJobEvent_t</a> event,</div>
 <div class="line">                     <span class="keyword">const</span> <span class="keywordtype">void</span> * pData );</div>
 <div class="line"> </div>
@@ -444,7 +444,6 @@ Variables</h2></td></tr>
 <div class="line"> </div>
 <div class="line"><span class="comment">// OTA interface context required for library interface functions</span></div>
 <div class="line"><span class="comment">// The functions set by these interfaces are assumed to be defined</span></div>
-<div class="line"><span class="comment">// For more information see [demos](https://github.com/aws/aws-iot-device-sdk-embedded-C/tree/main/demos/ota)</span></div>
 <div class="line"><a class="code hl_struct" href="struct_ota_interfaces__t.html">OtaInterfaces_t</a> pOtaInterfaces =</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Initialize OTA library OS Interface.</span></div>
@@ -482,7 +481,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="agroup__ota__enum__types_html_ga7ab3c74dc057383c56c6cb9aa6bf0b2d"><div class="ttname"><a href="group__ota__enum__types.html#ga7ab3c74dc057383c56c6cb9aa6bf0b2d">OtaErr_t</a></div><div class="ttdeci">OtaErr_t</div><div class="ttdoc">The OTA API return status. OTA agent error codes are in the upper 8 bits of the 32 bit OTA error word...</div><div class="ttdef"><b>Definition:</b> ota.h:80</div></div>
 <div class="ttc" id="agroup__ota__enum__types_html_ga96a2e1f5cfad783897e805196eee39a7"><div class="ttname"><a href="group__ota__enum__types.html#ga96a2e1f5cfad783897e805196eee39a7">OtaJobEvent_t</a></div><div class="ttdeci">OtaJobEvent_t</div><div class="ttdoc">OTA Job callback events.</div><div class="ttdef"><b>Definition:</b> ota.h:168</div></div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga7ab3c74dc057383c56c6cb9aa6bf0b2da0c644255eee375cb8e6bd9def0772e02"><div class="ttname"><a href="group__ota__enum__types.html#gga7ab3c74dc057383c56c6cb9aa6bf0b2da0c644255eee375cb8e6bd9def0772e02">OtaErrNone</a></div><div class="ttdeci">@ OtaErrNone</div><div class="ttdoc">No error occurred during the operation.</div><div class="ttdef"><b>Definition:</b> ota.h:81</div></div>
-<div class="ttc" id="aota_8c_html_a1764ba9b821dcdb693ec549e8349cc2e"><div class="ttname"><a href="ota_8c.html#a1764ba9b821dcdb693ec549e8349cc2e">OTA_Init</a></div><div class="ttdeci">OtaErr_t OTA_Init(const OtaAppBuffer_t *pOtaBuffer, const OtaInterfaces_t *pOtaInterfaces, const uint8_t *pThingName, OtaAppCallback_t OtaAppCallback)</div><div class="ttdoc">OTA Agent initialization function.</div><div class="ttdef"><b>Definition:</b> ota.c:3307</div></div>
+<div class="ttc" id="aota_8c_html_a1764ba9b821dcdb693ec549e8349cc2e"><div class="ttname"><a href="ota_8c.html#a1764ba9b821dcdb693ec549e8349cc2e">OTA_Init</a></div><div class="ttdeci">OtaErr_t OTA_Init(const OtaAppBuffer_t *pOtaBuffer, const OtaInterfaces_t *pOtaInterfaces, const uint8_t *pThingName, OtaAppCallback_t OtaAppCallback)</div><div class="ttdoc">OTA Agent initialization function.</div><div class="ttdef"><b>Definition:</b> ota.c:3319</div></div>
 <div class="ttc" id="astruct_ota_app_buffer__t_html"><div class="ttname"><a href="struct_ota_app_buffer__t.html">OtaAppBuffer_t</a></div><div class="ttdoc">OTA Application Buffer size information.</div><div class="ttdef"><b>Definition:</b> ota.h:317</div></div>
 <div class="ttc" id="astruct_ota_app_buffer__t_html_a1e8e0cf1e6b1f699409f22a4c03cefd7"><div class="ttname"><a href="struct_ota_app_buffer__t.html#a1e8e0cf1e6b1f699409f22a4c03cefd7">OtaAppBuffer_t::pUpdateFilePath</a></div><div class="ttdeci">uint8_t * pUpdateFilePath</div><div class="ttdoc">Path to store the files.</div><div class="ttdef"><b>Definition:</b> ota.h:318</div></div>
 <div class="ttc" id="astruct_ota_event_interface__t_html_a70a33a62828b128cd625c1b13ff8550e"><div class="ttname"><a href="struct_ota_event_interface__t.html#a70a33a62828b128cd625c1b13ff8550e">OtaEventInterface_t::init</a></div><div class="ttdeci">OtaInitEvent_t init</div><div class="ttdoc">Initialization event.</div><div class="ttdef"><b>Definition:</b> ota_os_interface.h:265</div></div>
@@ -545,8 +544,8 @@ Variables</h2></td></tr>
 <div class="line">    <span class="comment">// Optional: Disconnect MQTT and HTTP connections</span></div>
 <div class="line">    <span class="comment">// required by the OTA agent and other tasks.</span></div>
 <div class="line">}</div>
-<div class="ttc" id="aota_8c_html_a6db3f9cb417cb135cb0e68f5b5f2b11f"><div class="ttname"><a href="ota_8c.html#a6db3f9cb417cb135cb0e68f5b5f2b11f">OTA_GetState</a></div><div class="ttdeci">OtaState_t OTA_GetState(void)</div><div class="ttdoc">Get the current state of the OTA agent.</div><div class="ttdef"><b>Definition:</b> ota.c:3463</div></div>
-<div class="ttc" id="aota_8c_html_ac779291eb93f4e0e6459816e60e13b09"><div class="ttname"><a href="ota_8c.html#ac779291eb93f4e0e6459816e60e13b09">OTA_Shutdown</a></div><div class="ttdeci">OtaState_t OTA_Shutdown(uint32_t ticksToWait, uint8_t unsubscribeFlag)</div><div class="ttdoc">Signal to the OTA Agent to shut down.</div><div class="ttdef"><b>Definition:</b> ota.c:3410</div></div>
+<div class="ttc" id="aota_8c_html_a6db3f9cb417cb135cb0e68f5b5f2b11f"><div class="ttname"><a href="ota_8c.html#a6db3f9cb417cb135cb0e68f5b5f2b11f">OTA_GetState</a></div><div class="ttdeci">OtaState_t OTA_GetState(void)</div><div class="ttdoc">Get the current state of the OTA agent.</div><div class="ttdef"><b>Definition:</b> ota.c:3475</div></div>
+<div class="ttc" id="aota_8c_html_ac779291eb93f4e0e6459816e60e13b09"><div class="ttname"><a href="ota_8c.html#ac779291eb93f4e0e6459816e60e13b09">OTA_Shutdown</a></div><div class="ttdeci">OtaState_t OTA_Shutdown(uint32_t ticksToWait, uint8_t unsubscribeFlag)</div><div class="ttdoc">Signal to the OTA Agent to shut down.</div><div class="ttdef"><b>Definition:</b> ota.c:3422</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -621,7 +620,7 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga7ab3c74dc057383c56c6cb9aa6bf0b2daf5d3845d8b68e0c91cff60d2a38a2678"><div class="ttname"><a href="group__ota__enum__types.html#gga7ab3c74dc057383c56c6cb9aa6bf0b2daf5d3845d8b68e0c91cff60d2a38a2678">OtaErrActivateFailed</a></div><div class="ttdeci">@ OtaErrActivateFailed</div><div class="ttdoc">Failed to activate the new image.</div><div class="ttdef"><b>Definition:</b> ota.h:103</div></div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga96a2e1f5cfad783897e805196eee39a7aaf02fd22119771d2980c7af439fa3280"><div class="ttname"><a href="group__ota__enum__types.html#gga96a2e1f5cfad783897e805196eee39a7aaf02fd22119771d2980c7af439fa3280">OtaJobEventActivate</a></div><div class="ttdeci">@ OtaJobEventActivate</div><div class="ttdoc">OTA receive is authenticated and ready to activate.</div><div class="ttdef"><b>Definition:</b> ota.h:169</div></div>
-<div class="ttc" id="aota_8c_html_a5169ba09148e7f5668a90e776e712f8b"><div class="ttname"><a href="ota_8c.html#a5169ba09148e7f5668a90e776e712f8b">OTA_ActivateNewImage</a></div><div class="ttdeci">OtaErr_t OTA_ActivateNewImage(void)</div><div class="ttdoc">Activate the newest MCU image received via OTA.</div><div class="ttdef"><b>Definition:</b> ota.c:3512</div></div>
+<div class="ttc" id="aota_8c_html_a5169ba09148e7f5668a90e776e712f8b"><div class="ttname"><a href="ota_8c.html#a5169ba09148e7f5668a90e776e712f8b">OTA_ActivateNewImage</a></div><div class="ttdeci">OtaErr_t OTA_ActivateNewImage(void)</div><div class="ttdoc">Activate the newest MCU image received via OTA.</div><div class="ttdef"><b>Definition:</b> ota.c:3524</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -669,7 +668,7 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga96a2e1f5cfad783897e805196eee39a7a04e2c9b7143d34f63905cd052bf9763b"><div class="ttname"><a href="group__ota__enum__types.html#gga96a2e1f5cfad783897e805196eee39a7a04e2c9b7143d34f63905cd052bf9763b">OtaJobEventStartTest</a></div><div class="ttdeci">@ OtaJobEventStartTest</div><div class="ttdoc">OTA job is now in self test, perform user tests.</div><div class="ttdef"><b>Definition:</b> ota.h:171</div></div>
 <div class="ttc" id="agroup__ota__enum__types_html_ggad4909faa8b9c8672e7f7bef1bc6b5b84ad9ee33052c9c36593243b1bd0329a396"><div class="ttname"><a href="group__ota__enum__types.html#ggad4909faa8b9c8672e7f7bef1bc6b5b84ad9ee33052c9c36593243b1bd0329a396">OtaImageStateAccepted</a></div><div class="ttdeci">@ OtaImageStateAccepted</div><div class="ttdoc">The state of the OTA MCU Image post successful download and successful self_test.</div><div class="ttdef"><b>Definition:</b> ota_private.h:320</div></div>
-<div class="ttc" id="aota_8c_html_ab68cdf65934474e1f3d2cd1046314bea"><div class="ttname"><a href="ota_8c.html#ab68cdf65934474e1f3d2cd1046314bea">OTA_SetImageState</a></div><div class="ttdeci">OtaErr_t OTA_SetImageState(OtaImageState_t state)</div><div class="ttdoc">Set the state of the current MCU image.</div><div class="ttdef"><b>Definition:</b> ota.c:3548</div></div>
+<div class="ttc" id="aota_8c_html_ab68cdf65934474e1f3d2cd1046314bea"><div class="ttname"><a href="ota_8c.html#ab68cdf65934474e1f3d2cd1046314bea">OTA_SetImageState</a></div><div class="ttdeci">OtaErr_t OTA_SetImageState(OtaImageState_t state)</div><div class="ttdoc">Set the state of the current MCU image.</div><div class="ttdef"><b>Definition:</b> ota.c:3560</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -765,7 +764,7 @@ Variables</h2></td></tr>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="aota_8c_html_a65b61ae5dd477e8b2e6c88ea0473c62b"><div class="ttname"><a href="ota_8c.html#a65b61ae5dd477e8b2e6c88ea0473c62b">OTA_Suspend</a></div><div class="ttdeci">OtaErr_t OTA_Suspend(void)</div><div class="ttdoc">Suspend OTA agent operations .</div><div class="ttdef"><b>Definition:</b> ota.c:3613</div></div>
+<div class="ttc" id="aota_8c_html_a65b61ae5dd477e8b2e6c88ea0473c62b"><div class="ttname"><a href="ota_8c.html#a65b61ae5dd477e8b2e6c88ea0473c62b">OTA_Suspend</a></div><div class="ttdeci">OtaErr_t OTA_Suspend(void)</div><div class="ttdoc">Suspend OTA agent operations .</div><div class="ttdef"><b>Definition:</b> ota.c:3625</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -817,8 +816,8 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga2c42c25235304ca5c3e3a6abef78be4eac965db79301fabd43971f2ad050d782c"><div class="ttname"><a href="group__ota__enum__types.html#gga2c42c25235304ca5c3e3a6abef78be4eac965db79301fabd43971f2ad050d782c">OtaAgentEventStart</a></div><div class="ttdeci">@ OtaAgentEventStart</div><div class="ttdoc">Start the OTA state machine.</div><div class="ttdef"><b>Definition:</b> ota_private.h:349</div></div>
 <div class="ttc" id="agroup__ota__enum__types_html_gga7ab3c74dc057383c56c6cb9aa6bf0b2da0c1dd94b8875896b0a9dd383ba239774"><div class="ttname"><a href="group__ota__enum__types.html#gga7ab3c74dc057383c56c6cb9aa6bf0b2da0c1dd94b8875896b0a9dd383ba239774">OtaErrUninitialized</a></div><div class="ttdeci">@ OtaErrUninitialized</div><div class="ttdoc">The error code has not yet been set by a logic path.</div><div class="ttdef"><b>Definition:</b> ota.h:82</div></div>
-<div class="ttc" id="aota_8c_html_a2564144f284db077b8947ba58a6a72bb"><div class="ttname"><a href="ota_8c.html#a2564144f284db077b8947ba58a6a72bb">OTA_SignalEvent</a></div><div class="ttdeci">bool OTA_SignalEvent(const OtaEventMsg_t *const pEventMsg)</div><div class="ttdoc">Signal event to the OTA Agent task.</div><div class="ttdef"><b>Definition:</b> ota.c:3137</div></div>
-<div class="ttc" id="aota_8c_html_ae9d40388ac87e4ac93288de37c98a138"><div class="ttname"><a href="ota_8c.html#ae9d40388ac87e4ac93288de37c98a138">OTA_Resume</a></div><div class="ttdeci">OtaErr_t OTA_Resume(void)</div><div class="ttdoc">Resume OTA agent operations .</div><div class="ttdef"><b>Definition:</b> ota.c:3649</div></div>
+<div class="ttc" id="aota_8c_html_a2564144f284db077b8947ba58a6a72bb"><div class="ttname"><a href="ota_8c.html#a2564144f284db077b8947ba58a6a72bb">OTA_SignalEvent</a></div><div class="ttdeci">bool OTA_SignalEvent(const OtaEventMsg_t *const pEventMsg)</div><div class="ttdoc">Signal event to the OTA Agent task.</div><div class="ttdef"><b>Definition:</b> ota.c:3149</div></div>
+<div class="ttc" id="aota_8c_html_ae9d40388ac87e4ac93288de37c98a138"><div class="ttname"><a href="ota_8c.html#ae9d40388ac87e4ac93288de37c98a138">OTA_Resume</a></div><div class="ttdeci">OtaErr_t OTA_Resume(void)</div><div class="ttdoc">Resume OTA agent operations .</div><div class="ttdef"><b>Definition:</b> ota.c:3661</div></div>
 <div class="ttc" id="astruct_ota_event_msg__t_html"><div class="ttname"><a href="struct_ota_event_msg__t.html">OtaEventMsg_t</a></div><div class="ttdoc">Stores information about the event message.</div><div class="ttdef"><b>Definition:</b> ota_private.h:433</div></div>
 <div class="ttc" id="astruct_ota_event_msg__t_html_a065656c53757f9f78f5ddfc5b25e77f8"><div class="ttname"><a href="struct_ota_event_msg__t.html#a065656c53757f9f78f5ddfc5b25e77f8">OtaEventMsg_t::eventId</a></div><div class="ttdeci">OtaEvent_t eventId</div><div class="ttdef"><b>Definition:</b> ota_private.h:435</div></div>
 </div><!-- fragment --> 
@@ -844,11 +843,10 @@ Variables</h2></td></tr>
 <p>This is the main event loop to handle events for OTA update and needs to be called by the application task. This loop will continue to handle and execute events received for OTA Update until this tasks is terminated by the application.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pUnused</td><td>Can be used to pass down functionality to the agent task, Unused for now. This can be a function pointer that executes as the first routine when the event loop starts.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pUnused</td><td>Can be used to pass down functionality to the agent task, Unused for now. This can be a function pointer that executes as the first routine when the event loop starts. </td></tr>
   </table>
   </dd>
 </dl>
-<p>For a Posix based reference of creating a thread with this task, please see the <a href="https://github.com/aws/aws-iot-device-sdk-embedded-C/tree/main/demos/ota">demos in AWS IoT Embedded C SDK repository</a>. </p>
 
 </div>
 </div>
@@ -981,7 +979,7 @@ Dropped: The number of OTA packets that have been dropped because of either no q
 <div class="line">            otaStatistics.<a class="code hl_variable" href="struct_ota_agent_statistics__t.html#adbcf157f4d998bea3bf3c508e37c8437">otaPacketsProcessed</a>,</div>
 <div class="line">            otaStatistics.<a class="code hl_variable" href="struct_ota_agent_statistics__t.html#ae644353e00d4a3770bd6400181c5785e">otaPacketsDropped</a> );</div>
 <div class="line">}</div>
-<div class="ttc" id="aota_8c_html_a63182243ef3c18d5f36cd427b83a1a22"><div class="ttname"><a href="ota_8c.html#a63182243ef3c18d5f36cd427b83a1a22">OTA_GetStatistics</a></div><div class="ttdeci">OtaErr_t OTA_GetStatistics(OtaAgentStatistics_t *pStatistics)</div><div class="ttdoc">Get the statistics of OTA message packets.</div><div class="ttdef"><b>Definition:</b> ota.c:3471</div></div>
+<div class="ttc" id="aota_8c_html_a63182243ef3c18d5f36cd427b83a1a22"><div class="ttname"><a href="ota_8c.html#a63182243ef3c18d5f36cd427b83a1a22">OTA_GetStatistics</a></div><div class="ttdeci">OtaErr_t OTA_GetStatistics(OtaAgentStatistics_t *pStatistics)</div><div class="ttdoc">Get the statistics of OTA message packets.</div><div class="ttdef"><b>Definition:</b> ota.c:3483</div></div>
 <div class="ttc" id="astruct_ota_agent_statistics__t_html"><div class="ttname"><a href="struct_ota_agent_statistics__t.html">OtaAgentStatistics_t</a></div><div class="ttdoc">This is the OTA statistics structure to hold useful info.</div><div class="ttdef"><b>Definition:</b> ota_private.h:294</div></div>
 <div class="ttc" id="astruct_ota_agent_statistics__t_html_a43f7d9b2c6ead8213c6de51d6e65e980"><div class="ttname"><a href="struct_ota_agent_statistics__t.html#a43f7d9b2c6ead8213c6de51d6e65e980">OtaAgentStatistics_t::otaPacketsReceived</a></div><div class="ttdeci">uint32_t otaPacketsReceived</div><div class="ttdef"><b>Definition:</b> ota_private.h:295</div></div>
 <div class="ttc" id="astruct_ota_agent_statistics__t_html_ab693dddf7707daf3315bc4c23bb4e29a"><div class="ttname"><a href="struct_ota_agent_statistics__t.html#ab693dddf7707daf3315bc4c23bb4e29a">OtaAgentStatistics_t::otaPacketsQueued</a></div><div class="ttdeci">uint32_t otaPacketsQueued</div><div class="ttdef"><b>Definition:</b> ota_private.h:296</div></div>
